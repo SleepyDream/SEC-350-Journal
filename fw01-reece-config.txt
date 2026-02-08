@@ -29,6 +29,7 @@ set service dns forwarding listen-address '172.16.50.2'
 set service dns forwarding listen-address '172.16.150.2'
 set service dns forwarding system
 set service ssh listen-address '172.16.150.2'
+set service ssh disable-password-authentication
 set system host-name 'fw1-reece'
 set system name-server '10.0.17.2'
 set system option reboot-on-upgrade-failure '5'
